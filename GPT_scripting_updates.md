@@ -71,7 +71,7 @@ GPT DRAFT#1
 
 -------------x-------------------x------------------x--------
 
-ORGINAL SCRIPT
+ORiGINAL SCRIPT
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
