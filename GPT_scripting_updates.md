@@ -1,3 +1,102 @@
+DRAFT #2:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Sriram - Data Scientist & Mathematician</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Abhishek Sriram</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#adventures">Adventures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="hero">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="path/to/adventure-image1.jpg" alt="Adventure Image 1"></div>
+            <div class="swiper-slide"><img src="path/to/adventure-image2.jpg" alt="Adventure Image 2"></div>
+            <div class="swiper-slide"><img src="path/to/adventure-image3.jpg" alt="Adventure Image 3"></div>
+            <!-- Additional slides -->
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <div class="hero-text">
+        <h1>Welcome to My World</h1>
+        <p>I'm Abhishek Sriram, a passionate explorer and data scientist. Join me on my adventures and discoveries.</p>
+    </div>
+</section>
+
+<!-- Existing Content Sections: About, Experience, Education, Projects, Contact -->
+
+<footer>
+    <p>&copy; 2024 Abhishek Sriram</p>
+</footer>
+
+<!-- Bootstrap and Swiper JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+    });
+</script>
+</body>
+</html>
+
+
+--------x-------------------------x-------------x------
+
+
 GPT DRAFT#1
 
 <!DOCTYPE html>
